@@ -2,7 +2,7 @@ package CPAN::Test::Dummy::Perl5::UseUnsafeINC::Fail;
 
 use strict;
 use 5.008_005;
-our $VERSION = '0.02';
+our $VERSION = '0.04';
 
 1;
 __END__

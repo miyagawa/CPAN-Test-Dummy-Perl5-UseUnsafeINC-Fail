@@ -5,7 +5,7 @@ use Config;
 use Test::More;
 
 plan skip_all => "skip outside CPAN client"
-  unless $ENV{PERL5_CPAN_IS_RUNNING};
+  unless exists $ENV{PERL_MM_USE_DEFAULT};
 
 plan skip_all => "this perl doesn't have this"
   unless $Config{default_inc_excludes_dot} eq 'define';

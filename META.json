@@ -47,6 +47,17 @@
       }
    },
    "release_status" : "stable",
+   "resources" : {
+      "bugtracker" : {
+         "web" : "https://github.com/miyagawa/CPAN-Test-Dummy-Perl5-UseUnsafeINC-Fail/issues"
+      },
+      "homepage" : "https://github.com/miyagawa/CPAN-Test-Dummy-Perl5-UseUnsafeINC-Fail",
+      "repository" : {
+         "type" : "git",
+         "url" : "https://github.com/miyagawa/CPAN-Test-Dummy-Perl5-UseUnsafeINC-Fail.git",
+         "web" : "https://github.com/miyagawa/CPAN-Test-Dummy-Perl5-UseUnsafeINC-Fail"
+      }
+   },
    "version" : "0.01",
    "x_serialization_backend" : "Cpanel::JSON::XS version 3.0233",
    "x_use_unsafe_inc" : "0"

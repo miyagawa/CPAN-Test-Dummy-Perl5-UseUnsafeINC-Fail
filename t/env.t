@@ -1,8 +1,8 @@
 use strict;
 use Test::More;
 
-plan skip_all => "Skip in release testing"
-  if $ENV{CI} || $ENV{AUTHOR_TESTING} || $ENV{RELEASE_TESTING} || -e ".git";
+plan skip_all => "skip outside CPAN client"
+  unless $ENV{PERL5_CPAN_IS_RUNNING};
 
 is $ENV{PERL_USE_UNSAFE_INC}, '0';
 

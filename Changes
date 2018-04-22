@@ -1,6 +1,7 @@
 Revision history for CPAN-Test-Dummy-Perl5-UseUnsafeINC-Fail
 
 {{$NEXT}}
+        - skip tests outside CPAN
 
 0.02  2018-04-22 14:31:38 CEST
         - Fix the test that checks for a wrong value
